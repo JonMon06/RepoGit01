@@ -39,5 +39,55 @@ public class Empleado {
 		this.ClubSocial = false;
 		this.sueldo = (float)0.0;
 	}
+
+	public String getDNI() {
+		return DNI;
+	}
+
+	public void setDNI(String dNI) {
+		DNI = dNI;
+	}
+
+	public String getNombre() {
+		return Nombre;
+	}
+
+	public void setNombre(String nombre) {
+		Nombre = nombre;
+	}
+
+	public String getApellidos() {
+		return Apellidos;
+	}
+
+	public void setApellidos(String apellidos) {
+		Apellidos = apellidos;
+	}
+
+	public String getCategoria() {
+		return Categoria;
+	}
+
+	public void setCategoria(String categoria) {
+		Categoria = categoria;
+	}
+
+	public boolean isClubSocial() {
+		return ClubSocial;
+	}
+
+	public void setClubSocial(boolean clubSocial) {
+		ClubSocial = clubSocial;
+	}
+
+	public float getSueldo() {
+		return sueldo;
+	}
+
+	public void setSueldo(float sueldo) {
+		this.sueldo = sueldo;
+	}
 	
 }
+
+
